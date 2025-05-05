@@ -67,6 +67,41 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: ASAP-020370
+  identifier: https://ror.org/03arq3225
+  name: Michael J. Fox Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-SF-JFA-836662
+  identifier: https://ror.org/05mx85j86
+  name: Parkinson’s Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Klingenstein-Simons Fellowship Awards in Neuroscience
+  identifier: https://ror.org/01q222b25
+  name: ' Esther A. & Joseph Klingenstein Fund'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00her7k05
+  name: Whitehall Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01 MH125835
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: F32MH120894
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-05-05T19:13:54.408622+00:00'
 description: 'Striatal acetylcholine (ACh) signaling is thought to counteract reinforcement
   signals, promoting extinction and behavioral flexibility. Changes in striatal ACh
@@ -91,7 +126,19 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001434/versions/draft/assets/
 name: Distinct spatially organized striatum-wide acetylcholine dynamics for the learning
   and extinction of Pavlovian associations
-relatedResource: []
+relatedResource:
+- name: Howe Lab GitHub
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/howelab
+- name: howe-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/howe-lab-to-nwb/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
